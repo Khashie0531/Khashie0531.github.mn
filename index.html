@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="jp">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Personal Portfolia Website</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/aba42a7015.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="ホーム">
+  <div class="container">
+    <nav> <img src="images/logo.png" class="logo">
+      <ul>
+        <li><a href="#ホーム">ホーム</a></li>
+        <li><a href="#私について">私について</a></li>
+        <li><a href="#サービス">サービス</a></li>
+        <li><a href="#ポートフォリオ">ポートフォリオ</a></li>
+        <li><a href="#連絡先">連絡先</a></li>
+      </ul>
+    </nav>
+    <div class="header-text">
+      <p>学生＆選手</p>
+      <h1>こんにちは！ <span>ハシエルデネ</span><br>
+        アマルトルのウェブサイトです。</h1>
+    </div>
+  </div>
+</div>
+<!------------About--------->
+<div id="私について"></div>
+<div class="container">
+<div class="row">
+  <div class="about-col-1"> <img src="images/ain bi yu.jpg"></div>
+  <div class="about-col-2">
+    <h1 class="sub-title">私について</h1>
+    <p>こんにちは！私はハシエルデネアマルトルと申します。2002年5月31日にモンゴルの首都ウランバートルで生まれ、長男として家族の期待を背負って育ちました。2022年に日本に来ることを決意し、東京にある国書日本語学校に入学しました。日本語を学ぶことで、新しい文化や人々との出会いを楽しむことができました。そして、2024年4月に無事卒業し、現在は読売理興医療福祉専門学校でITエンジニア学科の1年生として学んでいます。
+      
+      日本での生活は挑戦の連続ですが、読売奨学生としての経験は私の人生を豊かにしてくれています。毎日新聞を配達しながら学校に通うのは決して楽ではありませんが、その努力を通じて多くの貴重な体験や人とのつながりを得ることができました。例えば、新聞配達中に出会ったさまざまな人々のストーリーや、学校の仲間との交流を通じて、視野が広がりました。
+      
+      将来的にはIT分野で自分のスキルを活かし、社会に貢献できるような仕事をしたいと考えています。これからも新しい挑戦を続け、自分自身を成長させていくことを楽しみにしています！</p>
+    <div class="tab-titles">
+      <p class="tab-links active-link" onclick="opentab('skills')">スキル</p>
+      <p class="tab-links" onclick="opentab('experience')">体験</p>
+      <p class="tab-links" onclick="opentab('education')">教育</p>
+    </div>
+    <div class="tab-contents active-tab" id="skills">
+      <ul>
+        <li><span> 言語</span><br>
+          モンゴル語、日本語、英語、ロシア語</li>
+        <li><span> プログラミング言語</span><br>
+          HTML and Javascipt</li>
+        <li><span> スポーツ</span><br>
+          柔道3段 </li>
+      </ul>
+    </div>
+    <div class="tab-contents" id="experience">
+      <ul>
+        <li><span> 2016-現在</span><br>
+          柔道８年間<br>
+          総合格闘技1年目</li>
+        <li><span> 2019-2021</span><br>
+          外国語を習い始めた </li>
+        <li><span> 2017-2019</span><br>
+          モンゴル代表選手</li>
+      </ul>
+    </div>
+    <div class="tab-contents" id="education">
+      <ul>
+        <li><span> 現在</span><br>
+          読売理興医療福祉専門学校1年生</li>
+        <li><span> 2024</span><br>
+          国書日本語学校卒業</li>
+        <li><span> 2021</span><br>
+          ウランバートル市立第105高校卒業</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!------------ Services--------------->
+<div id="サービス">
+  <div class="container">
+    <h1 class="sub-title">サービス</h1>
+    <div class="services-list">
+      <div> <i class="fa-solid fa-code"></i>
+        <h2>ウェブデザイン</h2>
+        <p>私は、見た目が素晴らしいだけでなく、シームレスな操作感を提供するデザインを届けることに情熱を持っています。あなたのビジョンを形にするために、一緒に協力しましょう！</p>
+        <a href="#">もっと見る</a> </div>
+      <div> <i class="fa-solid fa-language"></i>
+        <h2>言語</h2>
+        <p>私は外国語を教えることに情熱を持っており、生徒が言語の壁を越えて新しい世界とつながる手助けをしています。一緒に楽しく学びながら、あなたの語学力を向上させましょう！</p>
+        <a href="#">もっと見る</a> </div>
+      <div> <i class="fa-solid fa-medal"></i>
+        <h2>スポーツ</h2>
+        <p>私は柔道を8年間、総合格闘技を1年間経験しており、その経験をもとに技術だけでなく精神的な強さも指導しています。柔道では相手との駆け引きや忍耐力を、総合格闘技では多彩な技術を学びました。どちらのスポーツも、心身ともに成長できる素晴らしい手段だと考えています。あなたの成長をサポートし、共に限界を突破できるよう全力で指導します！！</p>
+        <a href="#">もっと見る</a> </div>
+    </div>
+  </div>
+</div>
+<!--------------Portolio------------>
+<div id="ポートフォリオ">
+  <div class="container">
+    <h1 class="sub-title">ポートフォリオ</h1>
+    <div class="work-list">
+      <div class="work"><img src="images/work1.png">
+        <div class="layer">
+          <h3>プロジェクト</h3>
+          <p>Photoshop、Illustrator、InDesignなどのAdobeアプリを使い、グラフィックデザインやイラスト、ウェブデザインなどさまざまな作品を制作しています。</p>
+          <a href="#"><i class="fa-solid fa-link"></i></a> </div>
+      </div>
+      <div class="work"><img src="images/work2.png">
+        <div class="layer">
+          <h3>通訳者</h3>
+          <p>私は日常会話や簡単な会話の通訳をしています。日本語と他の言語（英語、ロシア語など）を使い、コミュニケーションをサポートしています</p>
+          <a href="#"><i class="fa-solid fa-link"></i></a> </div>
+      </div>
+      <div class="work"><img src="images/work3.png">
+        <div class="layer">
+          <h3>Music App</h3>
+          <p>The app connect you to the talented people around the world. Download it from play store.</p>
+          <a href="#"><i class="fa-solid fa-link"></i></a></div>
+      </div>
+    </div>
+    <a href="#" class="btn">もっと見る</a> </div>
+</div>
+<!--------------Contact------------>
+<div id="連絡先">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">連絡先</h1>
+        <p><i class="fa-solid fa-paper-plane"></i> khashie01@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>0123456789</p>
+        <div class="social-icons"> <a href=""><i class="fa-brands fa-facebook"></i></a> <a href="https://www.facebook.com/De.KhashErdene/"　target="_blank"> <i class="fa-brands fa-x-twitter"></i></a> <a href=""><i class="fa-brands fa-instagram"></i></a> <a href=""><i class="fa-brands fa-youtube"></i></a> </div>
+        <a href="images/2024_時間（後期）.pdf" download class="btn btn2">履歴書をダウンロード</a> </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="お名前" required>
+          <input type="email" name="email" placeholder="メールアドレス" required>
+          <textarea name="Message" rows="6" placeholder="メッセージ"></textarea>
+          <button type="submit" class="btn btn2">送信</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright © Khasherdene Amartur</p>
+  </div>
+</div>
+<script>
+		var tablinks= document.getElementsByClassName("tab-links");
+		var tabcontents= document.getElementsByClassName("tab-contents");
+		
+		function opentab(tabname){
+			for(tablink of tablinks){
+				tablink.classList.remove("active-link");
+			}
+						for(tabcontent of tabcontents){
+				tabcontent.classList.remove("active-tab");
+		}
+			event.currentTarget.classList.add("active-link");
+			document.getElementById(tabname).classList.add("active-tab");
+		}
+		</script>
+</body>
+</html>
